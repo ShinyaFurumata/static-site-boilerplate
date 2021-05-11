@@ -1,0 +1,17 @@
+.sp {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    min-width: 320px !important;
+    font-size: 16px;
+  }
+
+  .sp {
+    display: block !important;
+  }
+  .pc {
+    display: none !important;
+  }
+}
